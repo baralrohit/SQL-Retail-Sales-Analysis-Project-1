@@ -13,24 +13,21 @@ Advanced analytical queries using window functions and CTEs
 
 ## Objectives
 
-Design and create a structured retail sales database
-
-Perform exploratory data analysis (EDA)
-
-Answer real business questions using SQL
-
-Apply aggregate functions, joins, CTEs, and window functions
-
-Analyze sales trends, customer rankings, and month-over-month growth
+- Design and create a structured retail sales database
+- Perform exploratory data analysis (EDA)
+- Answer business-driven questions using SQL
+- Apply aggregate functions, CTEs, and window functions
+- Analyze customer rankings and month-over-month sales growth
 
 ## Database Setup
 ### Database Creation
 
-create database sql_sales_project;
-use sql_sales_project;
+```sql
+CREATE DATABASE sql_sales_project;
+USE sql_sales_project; ```
 
 ### Table Creation
-
+``` sql 
 create table retail_sales 
 			(
 				transactions_id	int primary key,
@@ -44,4 +41,4 @@ create table retail_sales
 				price_per_unit float,	
 				cogs	float,
 				total_sale float
-			);
+			); ```
