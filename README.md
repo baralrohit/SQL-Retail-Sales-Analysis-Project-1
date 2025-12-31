@@ -284,6 +284,7 @@ Overall, this project showcases practical SQL proficiency, analytical thinking, 
 
 ## 7. Author
 
-**Rohit Baral**/
-**Master’s in Data Science**/
+**Rohit Baral**<br>
+**Master’s in Data Science**<br>
 **Aspiring Data Analyst**
+
